@@ -1,7 +1,4 @@
-#[cfg(test)]
-mod tests {
-    #[test]
-    fn it_works() {
-        assert_eq!(2 + 2, 4);
-    }
-}
+#![feature(never_type, type_alias_impl_trait)]
+
+pub mod io;
+pub mod net;

@@ -9,3 +9,5 @@ description = "Unifying Aynchronous Ecosystems via Algebraic Effects"
 repository = "https://github.com/pandaman64/unita/"
 
 [dependencies]
+eff = "0.1.0"
+bytes = "0.4.12"
